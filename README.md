@@ -3,7 +3,7 @@ Script (para usar en Violentmonkey o similar) para descargar imágenes de tmofan
 
 Este script se debe usar con ViolentMonkey https://violentmonkey.github.io/
 
-Sirve para descargar las páginas de lectura en modo cascada, la descarga es automatica. 
+Sirve para descargar las imagenes de lectura en modo cascada, la descarga es automatica. 
 
 Es recomendable permitir la descarga de multiples descargas en el navegador.
 
