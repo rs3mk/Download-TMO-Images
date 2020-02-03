@@ -21,13 +21,13 @@
 // ==/UserScript==
 
 var images = document.getElementsByTagName('img');
-var links = [];
+var title = document.getElementsByTagName('h2');
 var i = 0;
 var fileName = "";
 
 setInterval(function(){
     if(images.length > i){
-        filename = i + getExtension(images[i].src);
+        filename = title[0].innerText + ' - ' + i + getExtension(images[i].src);
         GM_download(images[i].src, filename);
         i++;
     }
