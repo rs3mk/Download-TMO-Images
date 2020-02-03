@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        TuManga todas las imagenes
+// @name        Download-TMO-Images
 // @version     1
 // @namespace   zack0zack
 // @description tmofans.com descarga todas las imagenes del capitulo en cascada
