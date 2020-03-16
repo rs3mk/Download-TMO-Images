@@ -4,7 +4,7 @@
 // @namespace   zack0zack
 // @description tmofans.com descarga todas las imagenes del capitulo en cascada
 // @icon	
-// @include     https://tmofans.com/viewer/*/cascade
+// @include     https://lectortmo.com/viewer/*/cascade
 // @require     https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js
 // @require     https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.5/jszip.min.js
 // @require     https://cdnjs.cloudflare.com/ajax/libs/jszip-utils/0.0.2/jszip-utils.min.js
@@ -27,8 +27,8 @@ var fileName = "";
 
 setInterval(function(){
     if(images.length > i){
-        filename = title[0].innerText + ' - ' + i + getExtension(images[i].src);
-        GM_download(images[i].src, filename);
+        filename = title[0].innerText + ' - ' + i + getExtension(images[i].dataset.src);
+        GM_download(images[i].dataset.src, filename);
         i++;
     }
 },200);
